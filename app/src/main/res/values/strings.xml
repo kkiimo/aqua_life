@@ -3,4 +3,6 @@
     <string name="description"> YOUR_DESCRIPTION_HERE </string>
     <string name="co2">co2</string>
     <string name="ph">pH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

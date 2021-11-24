@@ -22,6 +22,12 @@
         </activity>
         <activity android:name=".createacount"/>
         <activity android:name=".home"/>
+        <activity android:name=".co2"/>
+        <activity android:name=".ph"/>
+        <activity android:name=".changewater"/>
+        <activity android:name=".light"/>
+        <activity android:name=".feeding"/>
+        <activity android:name=".temparature"/>
     </application>
 
 </manifest>

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         jo = (Button) findViewById(R.id.join);
         log = (Button) findViewById(R.id.login);
 
+
         auth = FirebaseAuth.getInstance();
 
         log.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 final String login_id = id.getText().toString().trim();
                 final String login_pw = pw.getText().toString().trim();
+
                 if (login_id.length() == 0 || login_pw.length() == 0) {
                     Toast.makeText(MainActivity.this, "아이디,비밀번호를 입력하세요.", Toast.LENGTH_SHORT).show();
                     return;

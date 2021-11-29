@@ -3,17 +3,22 @@ package com.example.aqualife;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 public class home extends Activity {
 
     ImageButton changewater, feeding, led, temparature, top_changewater;
     Button co2, ph, top_ph;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -65,6 +70,14 @@ public class home extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(home.this, ph.class);
+                startActivity(intent);
+            }
+        });
+
+        temparature.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home.this, temparature.class);
                 startActivity(intent);
             }
         });

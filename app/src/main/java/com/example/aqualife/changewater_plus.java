@@ -33,7 +33,7 @@ public class changewater_plus extends Activity {
 
     int hour, minute;
     ImageButton top_home, ch_top_feeding;
-    Button top_ph, set;
+    Button top_ph, set, gauge1, gauge2,gauge3, gauge4 ;
     CalendarView calendar;
     TimePicker picker;
     String fname, str;
@@ -50,9 +50,16 @@ public class changewater_plus extends Activity {
         calendar = (CalendarView) findViewById(R.id.calendar);
         top_home = (ImageButton) findViewById(R.id.top_home);
         set = (Button) findViewById(R.id.set_time);
+
         picker = (TimePicker) findViewById(R.id.time);
         picker.setIs24HourView(true);
+
         debug = (TextView) findViewById(R.id.debug);
+        gauge1 = (Button) findViewById(R.id.gauge1);
+        gauge2 = (Button) findViewById(R.id.gauge2);
+        gauge3 = (Button) findViewById(R.id.gauge3);
+        gauge4 = (Button) findViewById(R.id.gauge4);
+
 
 
         ch_top_feeding.setOnClickListener(new View.OnClickListener() {
@@ -76,6 +83,10 @@ public class changewater_plus extends Activity {
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
                 set.setVisibility(View.VISIBLE);
                 picker.setVisibility(View.VISIBLE);
+                gauge1.setVisibility(View.VISIBLE);
+                gauge2.setVisibility(View.VISIBLE);
+                gauge3.setVisibility(View.VISIBLE);
+                gauge4.setVisibility(View.VISIBLE);
 
                 String s = String.format("%d.%d.%d", year, month, day);
                 checkday(year, month, day);
@@ -89,10 +100,40 @@ public class changewater_plus extends Activity {
                 saveDiary(fname);
                 set.setVisibility(View.GONE);
                 picker.setVisibility(View.GONE);
+                gauge1.setVisibility(View.GONE);
+                gauge2.setVisibility(View.GONE);
+                gauge3.setVisibility(View.GONE);
+                gauge4.setVisibility(View.GONE);
 
             }
         });
+
+        gauge1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gauge2.setVisibility(View.GONE);
+                gauge3.setVisibility(View.GONE);
+                gauge4.setVisibility(View.GONE);
+            }
+        });
+
+        gauge2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gauge3.setVisibility(View.GONE);
+                gauge4.setVisibility(View.GONE);
+            }
+        });
+
+        gauge3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gauge4.setVisibility(View.GONE);
+            }
+        });
+
     }
+
 
     void checkday(int year, int month, int day) {
         fname = "" + year + "_" + month + "_" + day + ".txt";

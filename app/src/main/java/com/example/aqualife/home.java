@@ -55,7 +55,7 @@ public class home extends Activity {
         led.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(home.this, temparature.class);
+                Intent intent = new Intent(home.this, led.class);
                 startActivity(intent);
             }
         });

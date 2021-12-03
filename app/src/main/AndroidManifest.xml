@@ -34,11 +34,14 @@
         <activity android:name=".home"/>
         <activity android:name=".co2"/>
         <activity android:name=".ph"/>
-        <activity android:name=".light"/>
+        <activity android:name=".led"/>
         <activity android:name=".feeding"/>
         <activity android:name=".temparature"/>
         <activity android:name=".changewater"/>
         <activity android:name=".changewater_plus"/>
+        <activity android:name=".led_plus" />
+        <activity android:name=".co2_plus"/>
+        <activity android:name="co2_res"/>
     </application>
 
 </manifest>

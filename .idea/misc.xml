@@ -11,11 +11,13 @@
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/drawable/logo.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/drawable/xml.xml" value="0.11296296296296296" />
-        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/ch_calendar.xml" value="0.33" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/changewater.xml" value="0.33" />
-        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/changewater_plus.xml" value="0.33" />
-        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/co2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/changewater_plus.xml" value="0.5" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/co2.xml" value="0.33" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/co2_plus.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/co2_res.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/createacount.xml" value="0.32741116751269034" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/feeding.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/fragment_feed_fragment.xml" value="0.36614583333333334" />
@@ -24,6 +26,8 @@
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/fragment_temp_fragment.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/home.xml" value="0.33" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/home_2.xml" value="0.33" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/led.xml" value="0.33" />
+        <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/led_plus.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/light.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/ph.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Kim Ho/AndroidStudioProjects/AquaLife/app/src/main/res/layout/temparature.xml" value="0.36614583333333334" />

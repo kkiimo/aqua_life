@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/led_top_co2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:text="@string/co2"
+        android:textColor="#bebebe"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="44dp"
+        android:text="Aquarium 1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/menu2"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_menu_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <ImageButton
+        android:id="@+id/arrow2"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="44dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/led_top_led"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <ImageButton
+        android:id="@+id/led2"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/led_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <ImageButton
+        android:id="@+id/led_top_feeding"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/feeding_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <Button
+        android:id="@+id/led_off"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:background="#2980ba"
+        android:backgroundTint="@null"
+        android:text="Off"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/led_on"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:background="#bebebe"
+        android:backgroundTint="@null"
+        android:text="On"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+
+    <ImageButton
+        android:id="@+id/led_plus"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        android:src="@drawable/plus" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#bebebe"
+                android:gravity="center"
+                android:text="No."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#bebebe"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="442dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#bebebe"
+                android:gravity="center"
+                android:text="Value"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="265dp"
+                tools:layout_editor_absoluteY="442dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="47dp"
+                tools:layout_editor_absoluteY="488dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="Aquarium 1"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="488dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="OFF"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="47dp"
+                tools:layout_editor_absoluteY="535dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="Aquarium 2"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="535dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="OFF"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="265dp"
+                tools:layout_editor_absoluteY="535dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
